@@ -23,7 +23,7 @@ function viewCart() {
     return ("Your shopping cart is empty.");
   } else {
     for(var i = 0; i < item.length; i++){
-      return "In your cart you have" + (i+1) + " at " + 
+      return "In your cart you have" + {getCart[i]}.itemName + " at " + {getCart[i]}.itemPrice
     }
   }
 }
