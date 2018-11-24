@@ -24,9 +24,10 @@ function viewCart() {
   } else {
     var cartList;
     for(var i = 0; i < item.length; i++){
-      return "In your cart you have" + {getCart()[0].itemName} + " at " + {getCart()[0].itemPrice} + "."
+      cartList = "In your cart you have" + {getCart()[0].itemName} + " at " + {getCart()[0].itemPrice} + "."
     }
   }
+  return cartList;
 }
 
 function total() {
