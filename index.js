@@ -15,7 +15,7 @@ function addToCart(item) {
    itemPrice: Math.floor(Math.random() * 100)
  };
  cart.push(obj);
- return "${item} has been added to your cart."
+ return item + " has been added to your cart."
 }
 
 function viewCart() {
@@ -33,5 +33,3 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
-
-
