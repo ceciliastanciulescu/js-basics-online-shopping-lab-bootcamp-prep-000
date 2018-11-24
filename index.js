@@ -20,11 +20,17 @@ function addToCart(item) {
 
 function viewCart() {
   if(item.length === 0){
-    return ("")
+    return ("Your shopping cart is empty.");
+  } else {
+    for(var i = 0; i < item.length; i++){
+      
+    }
   }
-  for(var i = 0; i < item.length; i++){
-    
-  }
+  function addToCart(item) {
+ // write your code here
+  cart.push({itemName : item, itemPrice:Math.ceil(Math.random(1,100))});
+ return item + " has been added to your cart."
+}
 }
 
 function total() {
