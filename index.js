@@ -19,7 +19,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  
+  if(item.length === 0){
+    return ("")
+  }
   for(var i = 0; i < item.length; i++){
     
   }
