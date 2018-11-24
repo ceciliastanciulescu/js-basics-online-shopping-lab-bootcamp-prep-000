@@ -20,6 +20,9 @@ function addToCart(item) {
 
 function viewCart() {
   
+  for(var i = 0; i < item.length; i++){
+    
+  }
 }
 
 function total() {
